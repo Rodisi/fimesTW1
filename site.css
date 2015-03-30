@@ -1,0 +1,325 @@
+
+body{
+	font-size: 12px;
+	font-family: Verdana, Arial, Verdana, sans-serif;
+	margin: 0px auto;
+	background-color: gray;
+	text-align: center;
+	background: url(images/bg.gif) repeat;
+	color:#999999;
+}
+
+#all{
+width: 920px;
+padding: 0;
+margin: 0 auto;
+ 
+}
+
+/****************************************************/
+
+#topo{
+height: 72px;
+}
+
+#contentor1{
+	width:353px;
+}
+
+#contentor_procurar{
+	background: url(images/procurar.gif) no-repeat;
+	width: 303px;
+	height: 41px;
+	text-align:right;
+	display:inline;
+	padding-top:8px;
+}
+
+
+#procurar{
+	background: url(images/bg_procurar_input.gif) no-repeat;
+	width: 151px;
+	height: 22px;
+}
+
+
+/**************************************/
+
+
+#destaque{
+
+background-color: #333333;
+text-align: left;
+
+}
+
+.esq{float: left; position: relative; display: inline;}
+.dir{float: right; position: relative;}
+
+
+#destaque a img{
+margin-left:33px;
+margin-right:53px;
+margin-top:25px;
+margin-bottom:25px;
+}
+
+#destaque .largo{
+padding-top:43px;
+width:500px;
+}
+
+#destaque span{
+	color:white;
+	font-size:12px;
+	font-weight: bold;
+	margin-right:5px;
+}
+
+#destaque p{
+	margin-top:0px;
+	margin-bottom: 6px;
+}
+
+
+/****************************************************/
+h1{
+color:#999999;
+font-size:14px;
+margin:0;
+
+}
+
+h2, h2 A{
+color:white;
+font-size:18px;
+margin:0;
+
+}
+
+
+A{
+	text-decoration:none;
+}
+
+A:hover{
+	text-decoration:underline;
+}
+
+img{
+	border:0;
+}
+/************************************************/
+
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix{display: inline-block;}
+* html .clearfix{height: 1%;}
+.clearfix{display: block;}
+
+.curved {
+border-radius:10px;
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+behavior:url(images/border-radius.htc);
+}
+
+
+
+/**********************************/
+
+#contents{
+	text-align: left;
+	margin-top:25px;
+}
+
+
+.coluna{
+float:left;
+position: relative;
+margin-right: 28px;
+margin-bottom: 25px;
+width: 130px;
+height:200px;
+overflow: hidden;
+}
+
+.alta{
+	height: 280px;
+}
+
+.ultima{
+	margin-right:0;
+}
+
+.coluna a img {margin-bottom:6px;}
+
+
+.coluna h1, .coluna h1 A{
+	font-size: 12px;
+	color:white;
+	margin: 0;
+		padding: 0;
+}
+
+.coluna p{
+	font-size: 10px;
+	margin:0;
+	padding: 0;
+}
+/*.coluna .dentro{
+padding-left:20px;
+padding-right: 16px;
+width: 284px;
+}*/
+
+#nav{
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+
+
+/*************************************************/
+#copy{
+	border-top:1px solid #666666;
+	text-align: left;
+	font-size:10px;
+}
+
+
+
+
+
+
+
+/**********************/
+#comentarios{
+	background-color: #333333;
+	text-align: left;
+	padding-left:25px;
+	padding-top: 10px;
+	width: 510px;
+	margin-bottom: 10px;
+}
+
+#comentarios span{
+	color:white;
+}
+
+#comentarios .esq{
+	width: 80px;
+}
+
+#comentarios .dir{
+	width: 400px;
+}
+
+#comentarios .news{
+	margin-bottom:20px;
+}
+
+#enviacomentarios{
+	background-color: #333333;
+	text-align: left;
+	padding-left:25px;
+	padding-top: 10px;
+	width: 350px;
+	margin-bottom: 10px;
+}
+
+#enviacomentarios.wide{
+	width:  830px;
+}
+
+#enviacomentarios input{
+width: 313px;
+height: 22px;
+background: url(images/input_bg.gif) no-repeat;
+}
+
+#enviacomentarios textarea{
+width: 313px;
+height: 59px;
+background: url(images/textarea_bg.gif) no-repeat;
+}
+
+#enviacomentarios label{
+	display:block;
+	color:white;
+
+}
+
+#enviacomentarios .btnsubmit{
+	text-align: right;
+	margin-right: 35px;
+	margin-bottom: 10px;
+}
+
+#enviacomentarios .btnsubmit input{
+width:83px;
+height: 22px;
+}
+
+#enviacomentarios .esq.colc{
+	width: 315px;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+
+#enviacomentarios .esq.colc.ult{
+	width: 100px;
+	padding-top:25px;
+}
+/************** contactos **********************************/
+input, textarea{
+	border: 0px solid black;
+/*width:300px;*/
+}
+
+#contentor_procurar input{
+		
+}
+
+#loginform input{width:150px}
+
+/*label {
+width: 180px;
+float: left;
+text-align: right;
+margin-right: 10px;
+display: block;
+color:#333333;
+font-size: 14px;
+}*/
+
+.submit{
+	display: block;
+    padding-right: 16px;
+    text-decoration: none;
+	background: transparent url(images/bredright.gif) no-repeat scroll top right;
+	height: 33px;
+	width: 100px;
+	margin-left:95px;
+	margin-top:10px;
+}
+
+
+.submit input, #loginform .submit input{
+
+	display: block;
+	font-size: 16px;
+	color:#666666;
+	line-height:33px;
+	background: url(images/bred.gif) no-repeat;
+	padding-left:16px;
+	color:white;
+	width: 100px;
+	height: 33px;
+	border: none;
+}
+
+form{ display:inline; margin: 0; padding: 0}
+
+
+
+

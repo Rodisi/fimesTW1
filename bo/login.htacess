@@ -1,0 +1,7 @@
+AuthName "Mensagem de Login"
+AuthType Basic 
+AuthUserFile /path_absoluta/.htpasswd
+AuthGroupFile /dev/null
+<Limit GET POST> 
+require valid-user
+</Limit> 

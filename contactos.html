@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Cache-Control" content="no-cache">
+	<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
+	<meta name="Description" content="">
+	<META NAME="keywords" CONTENT="">
+	<meta name="Author" content="Américo Rio">
+	<title>Filmes</title>
+	<link rel="stylesheet" href="site.css" type="text/css"  />
+
+
+</head>
+<body>
+<div id="all">
+
+	<div id="topo" class="clearfix">
+		<div class="esq"><img src="images/logo.gif"></div>
+		<div class="dir">
+		
+			<form action="lista">
+				<div class="clearfix" id="contentor1">
+					<div id="contentor_procurar" class="esq clearfix">
+						
+						<div class="dir" style="margin-right:20px;"><input type="image" id="accao_procurar" name="accao" value="procurar" src="images/btn_procurar.gif"></div>
+						<div class="dir"><input type="text" id="procurar" name="procurar"></div>
+
+					</div>
+					<div class="dir"><img src="images/i.gif"></div>
+				</div>
+			</form>
+		</div>
+	</div>
+<!--fim topo-->
+
+
+
+
+
+<div id="enviacomentarios" class="wide clearfix curved">
+<form action="envia.php" name="dataform" method="post">
+	<div class="clearfix">
+		<div class="esq colc">
+				
+				<p><label for="nome">Nome</label><input type="text" name="nome" id="nome" ></p>
+				<p><label for="email">Email</label><input type="text" name="email" id="email" ></p>
+				<p><label for="assunto">Assunto</label><input type="text" name="assunto" id="assunto" ></p>
+				
+
+		</div>
+
+		<div class="esq colc">
+
+				<p><label for="mensagem">Mensagem</label><textarea name="mensagem" id="mensagem" ></textarea></p>
+
+		</div>
+		
+		<div class="esq colc ult">
+
+				<div class="btnsubmit"><input type="image" name="accao" value="enviar" src="images/btn_enviar.gif"></div>
+			
+		</div>
+	</div>
+	
+
+</form>
+</div>
+
+
+	<div id="copy">&copy; Isla/AR/VF/All Rights Reserved</div> 
+
+</div>
+
+</body>
+</html>
